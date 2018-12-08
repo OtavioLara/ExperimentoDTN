@@ -1,0 +1,99 @@
+Starting experiment
+myScenario EpidemicRouter 5 20 25
+Run 1/1
+myScenario EpidemicRouter 5 20 50
+myScenario EpidemicRouter 5 20 75
+Run 1/1
+myScenario EpidemicRouter 5 20 100
+Run 1/1
+myScenario EpidemicRouter 5 40 25
+myScenario EpidemicRouter 5 40 50
+myScenario EpidemicRouter 5 40 75
+Run 1/1
+7381
+Run 1/1
+Run 1/1
+Run 1/1
+Running simulation 'myScenarioEpidemicRouter52025'
+Running simulation 'myScenarioEpidemicRouter52050'
+Running simulation 'myScenarioEpidemicRouter52075'
+---
+All done in 1.76s
+myScenario EpidemicRouter 5 40 100
+myScenario SprayAndWaitRouter 5 20 25
+---
+All done in 2.00s
+Running simulation 'myScenarioEpidemicRouter520100'
+myScenario SprayAndWaitRouter 5 20 50
+Run 1/1
+---
+All done in 2.06s
+myScenario SprayAndWaitRouter 5 20 75
+myScenario SprayAndWaitRouter 5 20 100
+Run 1/1
+myScenario SprayAndWaitRouter 5 40 25
+Running simulation 'myScenarioEpidemicRouter54025'
+myScenario SprayAndWaitRouter 5 40 50
+7581
+---
+All done in 2.28s
+Run 1/1
+Run 1/1
+Run 1/1
+Run 1/1
+Running simulation 'myScenarioEpidemicRouter54050'
+Run 1/1
+Running simulation 'myScenarioEpidemicRouter54075'
+Running simulation 'myScenarioSprayAndWaitRouter52025'
+Running simulation 'myScenarioSprayAndWaitRouter520100'
+Running simulation 'myScenarioSprayAndWaitRouter52075'
+Running simulation 'myScenarioEpidemicRouter540100'
+Running simulation 'myScenarioSprayAndWaitRouter52050'
+---
+All done in 3.12s
+---
+All done in 2.87s
+Running simulation 'myScenarioSprayAndWaitRouter54025'
+---
+All done in 2.99s
+Running simulation 'myScenarioSprayAndWaitRouter54050'
+---
+All done in 3.37s
+25.2 21600: 857.52 1/s
+Simulation done in 25.14s
+---
+All done in 28.00s
+25.4 21600: 851.71 1/s
+Simulation done in 25.32s
+---
+All done in 28.27s
+31.4 21600: 688.62 1/s
+Simulation done in 31.33s
+---
+All done in 33.78s
+31.4 21600: 687.70 1/s
+Simulation done in 31.39s
+---
+All done in 33.84s
+32.1 21600: 672.75 1/s
+Simulation done in 32.08s
+---
+All done in 34.21s
+29.3 21600: 736.12 1/s
+Simulation done in 29.32s
+---
+All done in 32.36s
+myScenario SprayAndWaitRouter 5 40 75
+myScenario SprayAndWaitRouter 5 40 100
+Run 1/1
+Run 1/1
+Running simulation 'myScenarioSprayAndWaitRouter54075'
+Running simulation 'myScenarioSprayAndWaitRouter540100'
+16.0 21600: 1350.68 1/s
+Simulation done in 15.97s
+---
+All done in 16.75s
+16.4 21600: 1320.38 1/s
+Simulation done in 16.34s
+---
+All done in 16.98s
