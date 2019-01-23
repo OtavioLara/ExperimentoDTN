@@ -38,11 +38,11 @@ def gera_grafico(cur_range, line, xlabel, ylabel, fixed="range", buff=50, nodes=
 	plt.cla()
 
 def main(args):
-	results = [("Taxa de entrega", 9), ("Latencia Média", 12)]
+	results = [("Taxa de entrega", 9), ("Latencia Média", 12), ("Overhead", 11), ("Buffer time", 16)]
 	parameters = [("Alcance de Transmissão", range(5, 55, 5)), ("Número de Nós", range(20, 160, 20)), ("Tamanho do Buffer", range(25, 120, 25))] 
 	for result in results:
 		for parameter in parameters:
-			gera_grafico(parameter[1], result[1], parameter[0], result[0], fixed=parameter[0])
+			gera_grafico(parameter[1], result[1], parameter[0], result[0], fixed=parameter[0], buff=100, nodes=140, rang=50)
 	return 0
 
 if __name__ == '__main__':
